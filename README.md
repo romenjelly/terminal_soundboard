@@ -117,8 +117,14 @@ mordhau/
     └── (same structure as foppish)
 ```
 
-Here's what the `mordhau+foppish.bat` might may look like:
+Here's what the `mordhau_foppish.bat` might may look like:
 
 ```bat
-./soundboard.exe -b mordhau/foppish -m 0.25 --key-toggle Home --key-stop End
+./terminal_soundboard.exe -b mordhau/foppish -m 0.25 --key-toggle Home --key-stop End
 ```
+
+## Virtual Audio Cable
+
+This soundboard does not provide a way to output into an input device (such as emulating a microphone).
+
+To use this to it's full potential, download a virtual audio cable, and select its input as this soundboard's output.
