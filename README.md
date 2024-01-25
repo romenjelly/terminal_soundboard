@@ -18,6 +18,9 @@ To mitigate this, find and terminate the soundboard in your OS's process manager
 
 Lastly, repeated improper termination may trip anti-malware software into flagging, and potentially deleting the soundboard executable. If it is randomly gone, it has likely been deleted by anti-malware software.
 
+This codebase is very hastily put together and runs on shaky control flow. Functions may seem nonsensical and randomly strum around the modules; yet *it works on my machine*.  
+This repository exists purely by "popular demand", and shouldn't be treated as anything more than haphazardly thrown-together crates to make a computer play funny sounds.
+
 ## Configuring the Soundboard
 
 Configuration is done two-fold: using the file system, and parameters passed to the executable.
